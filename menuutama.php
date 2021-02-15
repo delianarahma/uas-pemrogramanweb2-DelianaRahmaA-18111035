@@ -1,4 +1,5 @@
 <?php
+session_start();
   include 'config/menampilkan_pt.php';
 ?>
 
@@ -41,7 +42,7 @@
                     <a rel="styleheet" class="nav-link" href="halamaneditprofile.php">Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a rel="styleheet" class="btn btn-outline-primary my-2 my-sm-0" href="halamanutama.php" role="button">LOGOUT</a>
+                    <a rel="styleheet" class="btn btn-outline-primary my-2 my-sm-0" href="index.php" role="button">LOGOUT</a>
                 </li>
             </ul>
             
@@ -53,7 +54,7 @@
     <section class="Jumbotron-bg">
         <div class="jumbotron warna-bg text-white pt-5 pb-5">
         <div class="container">
-            <h1 class="display-4">Hello you,DELIANA RAHMA AZAHRA!</h1>
+            <h1 class="display-4">Hello you,<?php echo $_SESSION["username"] ?></h1>
             <p class="lead">Tingkatkan potensi mencari tempat magang dengan kartu pra magang</p>
         </div> 
         </div>
