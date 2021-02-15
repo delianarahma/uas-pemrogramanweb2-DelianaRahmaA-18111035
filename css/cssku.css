@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(243, 243, 245);
+}
+
+.Jumbotron-bg{
+    background-size: cover;
+    background: url(../js/image/banner.jpeg);
+    background-size: 300px;
+}
+
+.warna-bg{
+    background: linear-gradient(to right, rgba(140, 177, 233, 0.92), rgba(212, 241, 243, 0.92));
+}
+
+body {
+    background: url(../js/image/Bunga.png);
+}
+
+.footer-copyright{
+    background-color: rgb(243, 243, 245);
+}
+
+.page-footer{
+    background: linear-gradient(to right, rgba(50, 118, 221, 0.92), rgba(206, 226, 228, 0.92));
+}

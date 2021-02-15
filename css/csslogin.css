@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(207, 207, 240);
+}
+
+.warna-bg{
+    background-size: cover;
+    background: url(../js/image/banner.jpeg);
+
+    }
+
+      article{
+        background: url(../js/image/banner.jpeg);
+    }
+
+    body{
+        background: url(../js/image/Bunga.png);
+    }
+
+    .footer-copyright{
+        background-color: rgb(243, 243, 245);
+    }
+    
+    .page-footer{
+        background: linear-gradient(to right, rgba(50, 118, 221, 0.92), rgba(206, 226, 228, 0.92));
+    }
+    

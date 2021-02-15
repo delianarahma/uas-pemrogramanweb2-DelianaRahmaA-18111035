@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(243, 243, 245);
+}
+
+body{
+    background: url(../js/image/Bunga.png);
+}
+
+
+.footer-copyright{
+    background-color: rgb(243, 243, 245);
+}
+
+.page-footer{
+    margin-top: 50px;
+    background: linear-gradient(to right, rgba(50, 118, 221, 0.92), rgba(206, 226, 228, 0.92));
+}
+
+
